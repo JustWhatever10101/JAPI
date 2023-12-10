@@ -17,4 +17,4 @@ fs.readdirSync(path.join(__dirname, "src")).forEach(filename => {
     }
     filejson.push(appendingfile)
 })
-fs.writeFileSync(path.join(__dirname, id + ".json"), JSON.stringify(filejson, null, 4))
+fs.writeFileSync(path.join(__dirname, id + ".jse"), JSON.stringify(filejson, null, 4))
